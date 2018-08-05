@@ -21,7 +21,9 @@ class Book
 
   def page_count
     @page_count
-  end Dog.new("some breed"), a new dog instance is created that has a breed of "some breed" (i.e. whatever string
+  end
 
-  def genre
+  def genre=(genre)
+    @genre = genre
+  end
 end
