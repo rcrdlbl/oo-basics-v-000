@@ -15,11 +15,13 @@ class Book
     @author
   end
 
-  def page_count(num)
+  def page_count=(num)
     @page_count = num
   end
 
   def page_count
     @page_count
-  end
+  end Dog.new("some breed"), a new dog instance is created that has a breed of "some breed" (i.e. whatever string
+
+  def genre
 end
